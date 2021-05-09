@@ -99,7 +99,7 @@ def main():
 
 	else:
 		if not connected():
-			print("offline")
+			print("offline and no data available")
 		else:
 			arr = get_all(today)
 			data = arr[0]['data']
