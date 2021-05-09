@@ -2,11 +2,11 @@
 
 This extension is created specially for [Argos GNOME Shell extension](https://github.com/p-e-w/argos). It shows in top bar sunrise and sunset for current date. When extension is connected to the internet, it downloads all data for the rest of the month and saves it into `data.plk`. If there is no internet connection and no downloaded data available, it shows in top bar *offline and no data available*.
 
-![extension_wifi](img/extension_wifi.png)
+![extension_wifi](img/data_available.png)
 
 downloaded data available
 
-![extension_no_wifi](img/extension_no_wifi.png)
+![extension_no_wifi](img/no_data_available.png)
 
 no internet connection and no downloaded data available
 
