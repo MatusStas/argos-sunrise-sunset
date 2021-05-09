@@ -1,2 +1,3 @@
-LATITUDE = "your latitude"
-LONGITUDE = "your longitude"
+LATITUDE = "LATITUDE"
+LONGITUDE = "LONGITUDE"
+DATA_PATH = "/FULL/PATH/TO/data.plk"

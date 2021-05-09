@@ -3,8 +3,8 @@
 wget -q --spider http://google.com
 
 if [ $? -eq 0 ]; then
-	out=$(python3 /your/path/to/file/main.py)
+	out=$(python3 /FULL/PATH/TO/main.py)
 	echo $out
 else
-    echo "offline"
+    echo "offline and no data available"
 fi
