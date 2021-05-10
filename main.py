@@ -75,6 +75,16 @@ def load_data():
 		arr = pickle.load(file)
 	return arr
 
+def show_data():
+	with open(config.DATA_PATH, "rb") as file:
+		arr = pickle.load(file)
+
+	for d in arr:
+		date = d['date']
+		data = d['data']
+		coordinates = d['coordinates']
+		print(f"{date=}, {data=}, {coordinates=}")
+
 
 def connected():
 	try:
@@ -116,7 +126,6 @@ def main():
 			
 			data = arr[0]['data']
 			print(data)
-
 	else:
 		if not connected():
 			print("offline and no data available")
