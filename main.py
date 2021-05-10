@@ -92,7 +92,10 @@ def main():
 	today = date.today()
 
 	if file_exist():
-		arr = load_data()
+		try:
+			arr = load_data()
+		except:
+			arr = get_all(today)
 
 		if arr[0]['date'] == today:
 			if arr[0]['coordinates'] == (config.LATITUDE, config.LONGITUDE):
