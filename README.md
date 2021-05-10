@@ -14,7 +14,7 @@ no internet connection and no downloaded data available
 
 * add [GNOME Shell integration
 ](https://chrome.google.com/webstore/detail/gnome-shell-integration/gphhapmejobijbbhgpjhcjognlahblep?hl=en) to google chrome extensions
-* install [Argos extension](https://extensions.gnome.org/extension/1176/argos/)
+* install [Argos extension](https://extensions.gnome.org/extension/1176/argos/) with toggle button to ON
 
 
 ## Setting up `config.py`
