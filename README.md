@@ -36,5 +36,5 @@ echo $data
 ```
 
 * make `sunrise-sunset.1s.sh` executable
-* move to `.config.argos/`
+* move to `.config/argos/`
 * enjoy
